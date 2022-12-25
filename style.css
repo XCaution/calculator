@@ -1,0 +1,93 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(145, 174, 255);
+}
+.card {
+  background-color: #3b3f48;
+  width: 450px;
+  height: 800px;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.display {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  /* box-shadow: inset 2px 3px 11px rgba(0, 0, 0, 0.6), 5px 5px 12px #fff; */
+  box-shadow: 2px 3px 12px #ffffff, -2px -3px 12px #c5c5c5;
+}
+.display input {
+  background-color: transparent;
+  border: none;
+  text-align: end;
+  font-size: 30px;
+  width: 90%;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  /* background-color: rgb(255, 156, 156); */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.kiri {
+  width: 70%;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+button {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(109, 189, 255);
+  background-color: inherit;
+  box-shadow: 2px 2px 6px 2px rgb(0 0 0 / 71%), -2px -2px 6px rgb(255 255 255 / 40%);
+}
+button:hover {
+  transform: scale(0.95);
+}
+button:active {
+  transform: scale(0.9);
+}
+.kanan {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(52, 0, 65, 0.233);
+}
